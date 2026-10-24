@@ -1,6 +1,6 @@
 [← Back to portfolio](https://bagusbernadi.github.io/)
 
-# Project 18: LLM-based Rework/Defect Note Classifier
+# Project 18: Rework Note Analysis with LLM: Defect Pareto & Trends
 
 **Status: Design (rancangan).** Halaman rancangan ada di [`index.html`](index.html). Analisis, dashboard, dan angka hasil belum dikerjakan, sehingga bagian Analysis, Recommendation, dan Impact di bawah masih kosong.
 
