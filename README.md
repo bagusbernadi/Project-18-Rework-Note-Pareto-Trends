@@ -10,7 +10,7 @@
 |---|---|
 | Kategori | Manufaktur (data anonim) |
 | Tingkat | Sedang sampai sulit |
-| Data | Catatan kerja yang dianonimkan (nama orang, produk, stasiun, lot, dan serial dihapus atau diganti kode) |
+| Data | Catatan simulasi yang dianonimkan (nama orang, produk, stasiun, lot, dan serial dihapus atau diganti kode) |
 | Tools | Claude API, Python (pandas, scikit-learn), DuckDB + SQL, Excel, Streamlit + Plotly |
 
 ## 1. Problem
@@ -21,7 +21,8 @@ Rancangan memecahnya menjadi 14 pertanyaan (9 Utama, 4 Pendukung, 1 Tambahan) da
 
 ## 2. Data
 
-- Catatan rework dan defect dari pekerjaan nyata yang dianonimkan. Hanya teks yang sudah dianonimkan yang dikirim ke API. Data asli tidak masuk repositori.
+- Catatan rework dan defect simulasi (100% karangan, tidak memakai data perusahaan) yang ditulis seperti catatan operator, lalu dianonimkan. `scripts/generate_raw.py` membuat catatan berisi nama, produk, lot, serial, dan nama stasiun; `scripts/anonymize.py` menghapus atau mengganti semuanya dengan kode. Hanya teks yang sudah dianonimkan yang dikirim ke API. Data sebelum anonymization ada di `data/private/` dan tidak di-commit.
+- Versi data: v1. Tanggal dibuat: 28 Okt 2026. Seed: 18260302 (generator), 18260999 (pemetaan dan golden set). Generator: `scripts/generate_raw.py lalu scripts/anonymize.py`. Hasil v1: 3.060 catatan, golden set 300.
 - Ukuran (perkiraan): ±3.000 catatan, 6 stasiun (ST-A sampai ST-F), ±6 bulan; golden set ±300 catatan berlabel manual.
 - Rencana tabel: `rework_note`, `llm_label`, `manual_label`, `dim_category`.
 
@@ -54,6 +55,7 @@ Jam rework dihemat = (rate lama − rate baru) × volume × menit per unit ÷ 60
 - Golden set dibuat satu orang.
 - Catatan hanya mencerminkan apa yang ditulis operator.
 - API key disimpan di secrets, tidak di repositori.
+- Data simulasi: kategori sebenarnya ditanam oleh generator dan golden set diambil dari kategori itu, sehingga akurasi mencerminkan metode pada data karangan, bukan catatan pabrik.
 
 ## Struktur repository
 
