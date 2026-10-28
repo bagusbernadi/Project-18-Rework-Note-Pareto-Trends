@@ -1,0 +1,10 @@
+rank,category_code,n,share,cum_share,nama
+1,C4,745,0.2734948605,0.2734948605,Perekat kurang / berlebih
+2,C5,594,0.218061674,0.4915565345,Posisi tidak sejajar
+3,C1,404,0.1483113069,0.6398678414,Kontaminasi / debu
+4,C7,278,0.1020558003,0.7419236417,Gagal uji fungsi
+5,C2,265,0.0972834068,0.8392070485,Goresan
+6,C6,193,0.0708516887,0.9100587372,Dimensi di luar toleransi
+7,C3,122,0.0447870778,0.954845815,Retak / patah
+8,C8,93,0.0341409692,0.9889867841,Label / pengemasan
+9,C9,30,0.0110132159,1,Lainnya / tidak jelas

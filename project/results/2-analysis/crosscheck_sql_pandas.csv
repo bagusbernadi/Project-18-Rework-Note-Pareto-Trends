@@ -1,0 +1,6 @@
+pemeriksaan,dibandingkan,cocok,selisih_maks,hasil
+Pareto kategori (Q1),9,9,4.8751669368130024e-11,cocok
+Pareto per stasiun (Q2),54,54,4.9886622610628706e-11,cocok
+Tren bulanan (Q3),54,54,4.988558177654312e-11,cocok
+"Golden set: kecocokan label (Q5, Q7)",269,269,0.0,cocok
+Confusion matrix (Q6),11,11,0.0,cocok

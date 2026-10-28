@@ -1,0 +1,7 @@
+tahap,konfigurasi_terpilih,cv_dalam kata C=1,cv_dalam kata C=10,cv_dalam karakter C=10,cv_dalam kata+karakter C=10
+fold 1,kata C=10,0.7112,0.9397,0.9344,0.9397
+fold 2,kata C=10,0.7805,0.9347,0.9336,0.9347
+fold 3,karakter C=10,0.7049,0.9176,0.9183,0.9162
+fold 4,kata C=10,0.7676,0.9832,0.9749,0.9832
+fold 5,kata C=10,0.7943,0.9517,0.9517,0.9517
+model akhir (seluruh golden set),kata C=10,0.8253,0.9857,0.9849,0.9849

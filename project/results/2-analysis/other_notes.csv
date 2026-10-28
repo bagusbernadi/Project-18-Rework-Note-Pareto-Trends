@@ -1,0 +1,31 @@
+note_id,month,station_code,note_text_clean,confidence
+N00084,2026-08,ST-B,"ada masalah, belum tau penyebabnya",0.641595
+N00098,2026-04,ST-F,lihat lot sebelumnya,0.790811
+N00224,2026-08,ST-E,"ada masalah, belum tau penyebabnya",0.788525
+N00669,2026-05,ST-C,"ada masalah, belum tau penyebabnya",0.647716
+N00751,2026-05,ST-D,"ada masalah, belum tau penyebabnya",0.788525
+N00843,2026-03,ST-B,lihat lot sebelumnya,0.790811
+N00844,2026-07,ST-E,lihat lot sebelumnya,0.790811
+N00902,2026-05,ST-F,"ada masalah, belum tau penyebabnya",0.788525
+N00959,2026-05,ST-F,"ada masalah, belum tau penyebabnya",0.788525
+N01102,2026-05,ST-C,lihat lot sebelumnya,0.790811
+N01253,2026-05,ST-A,lihat lot sebelumnya,0.790811
+N01289,2026-04,ST-A,lihat lot sebelumnya,0.790811
+N01308,2026-05,ST-D,"ada masalah, belum tau penyebabnya",0.788525
+N01367,2026-05,ST-F,lihat lot sebelumnya,0.693561
+N01480,2026-08,ST-B,"ada masalah, belum tau penyebabnya",0.788525
+N01537,2026-04,ST-B,lihat lot sebelumnya,0.790811
+N01567,2026-06,ST-C,lihat lot sebelumnya,0.790811
+N01652,2026-04,ST-B,"ada masalah, belum tau penyebabnya",0.788525
+N01828,2026-08,ST-D,"ada masalah, belum tau penyebabnya",0.788525
+N01872,2026-07,ST-C,lihat lot sebelumnya,0.790811
+N01875,2026-08,ST-A,lihat lot sebelumnya,0.790811
+N02053,2026-05,ST-B,lihat lot sebelumnya,0.790811
+N02209,2026-07,ST-F,lihat lot sebelumnya,0.790811
+N02306,2026-08,ST-C,lihat lot sebelumnya,0.790811
+N02379,2026-05,ST-F,"ada masalah, belum tau penyebabnya",0.788525
+N02512,2026-06,ST-A,lihat lot sebelumnya,0.790811
+N02837,2026-06,ST-D,lihat lot sebelumnya,0.645317
+N02875,2026-08,ST-C,"ada masalah, belum tau penyebabnya",0.788525
+N02902,2026-06,ST-B,"ada masalah, belum tau penyebabnya",0.788525
+N02907,2026-08,ST-E,"ada masalah, belum tau penyebabnya",0.788525

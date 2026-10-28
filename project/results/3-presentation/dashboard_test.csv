@@ -1,0 +1,17 @@
+pemeriksaan,hasil
+halaman Ringkasan tanpa error,lulus
+jumlah catatan sama dengan CSV,lulus
+porsi penyebab terbesar sama dengan CSV,lulus
+kategori untuk 80% sama dengan CSV,lulus
+ganti kategori tren tanpa error,lulus
+halaman Per Stasiun tanpa error,lulus
+halaman Per Stasiun punya tabel atau grafik,lulus
+halaman Evaluasi Model tanpa error,lulus
+halaman Evaluasi Model punya tabel atau grafik,lulus
+halaman Antrean Cek Manual tanpa error,lulus
+halaman Antrean Cek Manual punya tabel atau grafik,lulus
+filter stasiun tanpa error,lulus
+slider ambang tanpa error,lulus
+slider ambang: perlu cek manual sama dengan CSV,lulus
+antrean sama dengan CSV,lulus
+filter antrean tanpa error,lulus

@@ -1,0 +1,8 @@
+pengecekan,pelanggaran,hasil
+note_id unik,0,lulus
+teks tidak kosong,0,lulus
+kategori manual ada di dim_category,0,lulus
+label manual punya catatan,0,lulus
+label manual hanya pada catatan valid,0,lulus
+satu label manual per catatan,0,lulus
+tanggal dalam periode 2026-03 sampai 2026-08,0,lulus

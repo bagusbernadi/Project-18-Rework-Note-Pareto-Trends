@@ -1,0 +1,10 @@
+kategori,jumlah,dasar,proporsi,keputusan
+catatan (mentah),3060,3060,1.0,dasar
+teks kosong,0,3060,0.0,dibuang
+catatan ganda,66,3060,0.021569,dibuang (baris pertama dipertahankan)
+terlalu singkat (< 3 kata),270,3060,0.088235,"dipertahankan, tidak diklasifikasi"
+catatan setelah dibersihkan,2994,3060,0.978431,dipakai
+catatan valid untuk klasifikasi,2724,2994,0.90982,dipakai
+golden set (mentah),300,300,1.0,dasar
+golden set valid (dipakai evaluasi),269,300,0.896667,dipakai
+golden set dibuang (ganda atau terlalu singkat),31,300,0.103333,tidak dipakai evaluasi

@@ -1,0 +1,6 @@
+rentang,catatan,accuracy,rata_confidence
+0.00 sampai 0.50,4,0.5,0.36746075
+0.50 sampai 0.70,6,1,0.6358391667
+0.70 sampai 0.80,14,1,0.7528462143
+0.80 sampai 0.90,58,1,0.8639030172
+0.90 sampai 1.00,187,1,0.9405730642

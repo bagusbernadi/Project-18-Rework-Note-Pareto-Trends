@@ -1,0 +1,11 @@
+fakta,ditanam,terdeteksi,hasil
+ST-C menyumbang lebih banyak C4,pengganda 2 sampai 4 kali,rasio 1.87; Holm p 3.52e-23,Sesuai
+ST-E menyumbang lebih banyak C5,pengganda 2 sampai 4 kali,rasio 2.06; Holm p 5.38e-23,Sesuai
+ST-D menyumbang lebih banyak C7,pengganda 2 sampai 4 kali,rasio 2.41; Holm p 1.98e-16,Sesuai
+ST-A menyumbang lebih banyak C2,pengganda 2 sampai 4 kali,rasio 1.92; Holm p 1.11e-08,Sesuai
+Kategori teratas pada Pareto adalah C4,"bobot dasar C4 0,23 tertinggi",teratas C4; kebenaran C4,Sesuai
+Urutan 5 kategori teratas sama dengan kebenaran,bobot dasar dan pengganda stasiun,hasil C4 C5 C1 C7 C2; kebenaran C4 C5 C1 C7 C2,Sesuai
+Tidak ada efek shift dan model,tidak ada,p Holm shift 1.000; model 1.000,Sesuai
+Tidak ada lonjakan bulanan yang ditanam,tidak ada,0 lonjakan dan 0 penurunan melewati 3 sigma,Sesuai
+Sekitar 9% catatan terlalu singkat,"75% dari C9 (bobot 0,12) dibuat sangat singkat",0.0902 dari catatan setelah dibersihkan,Sesuai
+Ketepatan klasifikasi terhadap kebenaran generator,teks dari templat sederhana,pengganti lokal 0.9993; baseline 1.0000,Sesuai

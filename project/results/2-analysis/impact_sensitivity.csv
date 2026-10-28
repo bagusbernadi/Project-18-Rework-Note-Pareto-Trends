@@ -1,0 +1,17 @@
+analisis,penurunan,parameter,satuan,jam_per_bulan
+Q11,0.1,6,menit per unit,1.241666667
+Q11,0.1,12,menit per unit,2.483333333
+Q11,0.1,18,menit per unit,3.725
+Q11,0.2,6,menit per unit,2.483333333
+Q11,0.2,12,menit per unit,4.966666667
+Q11,0.2,18,menit per unit,7.45
+Q11,0.3,6,menit per unit,3.725
+Q11,0.3,12,menit per unit,7.45
+Q11,0.3,18,menit per unit,11.175
+Q11,0.5,6,menit per unit,6.208333333
+Q11,0.5,12,menit per unit,12.41666667
+Q11,0.5,18,menit per unit,18.625
+Q12,,10,detik per catatan,1.386111111
+Q12,,20,detik per catatan,2.772222222
+Q12,,30,detik per catatan,4.158333333
+Q12,,60,detik per catatan,8.316666667

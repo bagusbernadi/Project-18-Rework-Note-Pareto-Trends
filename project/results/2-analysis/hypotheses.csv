@@ -1,0 +1,6 @@
+kode,hipotesis,hasil,bukti
+H1,Dua atau tiga kategori menyumbang sekitar 80% catatan rework.,Tidak terbukti,2 kategori 0.4916; 3 kategori (C4 C5 C1) 0.6399; band 0.75 sampai 0.85; kategori untuk mencapai 80%: 5
+H2,"LLM lebih tepat dibanding baseline kata kunci, terutama pada catatan yang memakai singkatan.",Belum bisa disimpulkan,"LLM tidak diuji (tanpa API key); pengganti lokal accuracy 0.9926 vs baseline 1.0000, selisih -0.0074, McNemar p 0.5000"
+H3,"Kategori yang mirip, misalnya goresan dan retak, paling sering tertukar.",Belum bisa disimpulkan,total salah 2 pada golden set (minimum 10); tertukar C2 dan C3: 0
+H4,Satu stasiun menjadi sumber utama untuk satu kategori tertentu.,Terbukti,4 dari 54 sel memenuhi rasio >= 1.5 dan Holm p < 0.05; tertinggi ST-D C7 rasio 2.4134
+H5,Sekitar 5 sampai 10% catatan terlalu singkat atau tidak jelas untuk diklasifikasi.,Terbukti,270 dari 2994 catatan (0.0902; CI Wilson 0.0804 sampai 0.1010); terhadap catatan mentah 0.0882

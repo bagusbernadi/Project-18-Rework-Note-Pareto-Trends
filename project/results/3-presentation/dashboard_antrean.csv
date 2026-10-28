@@ -1,0 +1,78 @@
+note_id,date,shift,station_code,model_code,note_text_clean,llm_cat,nama,confidence
+N00998,2026-07-20,Shift 2,ST-A,M-2,barcode tidak terbaca,C4,Perekat kurang / berlebih,0.239858
+N02903,2026-03-26,Shift 2,ST-B,M-2,crack kecil sisi kiri setelah press,C5,Posisi tidak sejajar,0.252204
+N00078,2026-07-15,Shift 2,ST-D,M-2,crack kecil pojok atas setelah press,C3,Retak / patah,0.470952
+N00974,2026-04-17,Shift 2,ST-F,M-3,crack kecil pojok atas setelah press,C3,Retak / patah,0.470952
+N01248,2026-08-11,Shift 1,ST-C,M-2,crack kecil pojok atas setelah press,C3,Retak / patah,0.470952
+N02117,2026-06-25,Shift 1,ST-A,M-2,crack kecil pojok atas setelah press,C3,Retak / patah,0.470952
+N02706,2026-04-20,Shift 2,ST-A,M-2,"patah di lensa, tidak bisa dipakai",C3,Retak / patah,0.480632
+N00518,2026-06-04,Shift 1,ST-E,M-2,label salah tempel,C8,Label / pengemasan,0.497149
+N01768,2026-04-29,Shift 2,ST-A,M-1,crack kecil area tengah setelah press,C3,Retak / patah,0.556134
+N01841,2026-04-06,Shift 2,ST-A,M-1,crack kecil area tengah setelah press,C3,Retak / patah,0.556134
+N02357,2026-06-26,Shift 1,ST-B,M-3,crack kecil area tengah setelah press,C3,Retak / patah,0.556134
+N01331,2026-06-16,Shift 2,ST-E,M-3,crack kecil konektor setelah press,C3,Retak / patah,0.579969
+N01802,2026-04-16,Shift 2,ST-C,M-2,crack kecil konektor setelah press,C3,Retak / patah,0.579969
+N00534,2026-05-11,Shift 2,ST-F,M-3,crack kecil bracket setelah press,C3,Retak / patah,0.580504
+N00802,2026-06-03,Shift 1,ST-C,M-3,crack kecil bracket setelah press,C3,Retak / patah,0.580504
+N02191,2026-06-26,Shift 1,ST-A,M-1,crack kecil bracket setelah press,C3,Retak / patah,0.580504
+N02224,2026-04-29,Shift 2,ST-F,M-1,crack kecil bracket setelah press,C3,Retak / patah,0.580504
+N02521,2026-08-24,Shift 2,ST-B,M-2,crack kecil bracket setelah press,C3,Retak / patah,0.580504
+N00204,2026-04-06,Shift 2,ST-D,M-2,retak di area tengah,C3,Retak / patah,0.580762
+N01015,2026-05-19,Shift 2,ST-F,M-2,crack kecil lensa setelah press,C3,Retak / patah,0.593631
+N01477,2026-06-17,Shift 1,ST-F,M-1,crack kecil lensa setelah press,C3,Retak / patah,0.593631
+N02285,2026-06-30,Shift 2,ST-D,M-1,crack kecil lensa setelah press,C3,Retak / patah,0.593631
+N02500,2026-08-13,Shift 1,ST-F,M-3,"patah di pojok atas, tidak bisa dipakai",C3,Retak / patah,0.595372
+N02881,2026-07-15,Shift 2,ST-E,M-1,"patah di pojok atas, tidak bisa dipakai",C3,Retak / patah,0.595372
+N00092,2026-05-04,Shift 1,ST-F,M-1,crack kecil pcb setelah press,C3,Retak / patah,0.601925
+N00654,2026-04-29,Shift 2,ST-B,M-3,crack kecil pcb setelah press,C3,Retak / patah,0.601925
+N02156,2026-04-21,Shift 2,ST-C,M-1,crack kecil pcb setelah press,C3,Retak / patah,0.601925
+N01180,2026-08-03,Shift 2,ST-B,M-3,"patah di sisi kiri, tidak bisa dipakai",C3,Retak / patah,0.606084
+N00084,2026-08-24,Shift 2,ST-B,M-1,"ada masalah, belum tau penyebabnya",C9,Lainnya / tidak jelas,0.641595
+N02837,2026-06-18,Shift 2,ST-D,M-3,lihat lot sebelumnya,C9,Lainnya / tidak jelas,0.645317
+N00669,2026-05-04,Shift 2,ST-C,M-2,"ada masalah, belum tau penyebabnya",C9,Lainnya / tidak jelas,0.647716
+N00352,2026-07-23,Shift 1,ST-B,M-3,crack kecil sisi kanan setelah press,C3,Retak / patah,0.652053
+N00358,2026-05-14,Shift 2,ST-D,M-3,crack kecil sisi kanan setelah press,C3,Retak / patah,0.652053
+N01353,2026-03-20,Shift 1,ST-C,M-3,crack kecil sisi kanan setelah press,C3,Retak / patah,0.652053
+N01427,2026-08-18,Shift 1,ST-B,M-1,crack kecil sisi kanan setelah press,C3,Retak / patah,0.652053
+N01669,2026-05-27,Shift 2,ST-E,M-3,crack kecil sisi kanan setelah press,C3,Retak / patah,0.652053
+N02344,2026-08-13,Shift 2,ST-B,M-3,crack kecil sisi kanan setelah press,C3,Retak / patah,0.652053
+N02687,2026-03-25,Shift 2,ST-F,M-1,crack kecil sisi kanan setelah press,C3,Retak / patah,0.652053
+N00131,2026-08-18,Shift 2,ST-D,M-1,bagian pojok atas pecah,C3,Retak / patah,0.675367
+N01698,2026-04-15,Shift 1,ST-B,M-2,bagian pojok atas pecah,C3,Retak / patah,0.675367
+N00002,2026-04-15,Shift 1,ST-F,M-3,barcode tidak terbaca,C8,Label / pengemasan,0.677135
+N00299,2026-06-02,Shift 1,ST-E,M-1,barcode tidak terbaca,C8,Label / pengemasan,0.677135
+N00727,2026-06-12,Shift 2,ST-D,M-1,barcode tidak terbaca,C8,Label / pengemasan,0.677135
+N00742,2026-06-10,Shift 2,ST-F,M-1,barcode tidak terbaca,C8,Label / pengemasan,0.677135
+N00781,2026-03-26,Shift 1,ST-C,M-2,barcode tidak terbaca,C8,Label / pengemasan,0.677135
+N00807,2026-08-04,Shift 2,ST-B,M-1,barcode tidak terbaca,C8,Label / pengemasan,0.677135
+N00858,2026-04-03,Shift 1,ST-A,M-3,barcode tidak terbaca,C8,Label / pengemasan,0.677135
+N01077,2026-05-12,Shift 1,ST-F,M-2,barcode tidak terbaca,C8,Label / pengemasan,0.677135
+N01184,2026-06-16,Shift 1,ST-A,M-2,barcode tidak terbaca,C8,Label / pengemasan,0.677135
+N01272,2026-05-15,Shift 1,ST-B,M-2,barcode tidak terbaca,C8,Label / pengemasan,0.677135
+N01352,2026-08-05,Shift 1,ST-D,M-3,barcode tidak terbaca,C8,Label / pengemasan,0.677135
+N01801,2026-07-15,Shift 1,ST-F,M-2,barcode tidak terbaca,C8,Label / pengemasan,0.677135
+N01901,2026-06-15,Shift 2,ST-B,M-2,barcode tidak terbaca,C8,Label / pengemasan,0.677135
+N02035,2026-05-15,Shift 2,ST-A,M-1,barcode tidak terbaca,C8,Label / pengemasan,0.677135
+N02041,2026-06-10,Shift 2,ST-C,M-1,barcode tidak terbaca,C8,Label / pengemasan,0.677135
+N02438,2026-07-17,Shift 2,ST-E,M-3,barcode tidak terbaca,C8,Label / pengemasan,0.677135
+N02481,2026-07-03,Shift 2,ST-B,M-1,barcode tidak terbaca,C8,Label / pengemasan,0.677135
+N02496,2026-05-11,Shift 1,ST-B,M-1,barcode tidak terbaca,C8,Label / pengemasan,0.677135
+N02533,2026-08-20,Shift 1,ST-E,M-2,barcode tidak terbaca,C8,Label / pengemasan,0.677135
+N02709,2026-04-27,Shift 2,ST-B,M-2,barcode tidak terbaca,C8,Label / pengemasan,0.677135
+N02741,2026-04-17,Shift 1,ST-E,M-3,barcode tidak terbaca,C8,Label / pengemasan,0.677135
+N00702,2026-08-24,Shift 1,ST-A,M-1,"patah di konektor, tidak bisa dipakai",C3,Retak / patah,0.689418
+N00814,2026-06-11,Shift 2,ST-E,M-1,"patah di konektor, tidak bisa dipakai",C3,Retak / patah,0.689418
+N00937,2026-07-20,Shift 1,ST-B,M-2,"patah di konektor, tidak bisa dipakai",C3,Retak / patah,0.689418
+N01118,2026-08-05,Shift 2,ST-A,M-2,"patah di konektor, tidak bisa dipakai",C3,Retak / patah,0.689418
+N02281,2026-03-02,Shift 2,ST-F,M-3,"patah di konektor, tidak bisa dipakai",C3,Retak / patah,0.689418
+N01654,2026-08-20,Shift 1,ST-E,M-3,"patah di bracket, tidak bisa dipakai",C3,Retak / patah,0.692486
+N01809,2026-08-25,Shift 2,ST-B,M-3,"patah di bracket, tidak bisa dipakai",C3,Retak / patah,0.692486
+N02629,2026-05-06,Shift 1,ST-D,M-1,"patah di bracket, tidak bisa dipakai",C3,Retak / patah,0.692486
+N02630,2026-04-09,Shift 1,ST-B,M-2,"patah di bracket, tidak bisa dipakai",C3,Retak / patah,0.692486
+N02733,2026-05-15,Shift 1,ST-E,M-3,"patah di bracket, tidak bisa dipakai",C3,Retak / patah,0.692486
+N01367,2026-05-13,Shift 2,ST-F,M-1,lihat lot sebelumnya,C9,Lainnya / tidak jelas,0.693561
+N00072,2026-08-04,Shift 2,ST-F,M-1,"patah di area tengah, tidak bisa dipakai",C3,Retak / patah,0.699747
+N01204,2026-04-30,Shift 1,ST-F,M-2,"patah di area tengah, tidak bisa dipakai",C3,Retak / patah,0.699747
+N02205,2026-03-20,Shift 2,ST-D,M-2,"patah di area tengah, tidak bisa dipakai",C3,Retak / patah,0.699747
+N02978,2026-04-15,Shift 1,ST-A,M-2,"patah di area tengah, tidak bisa dipakai",C3,Retak / patah,0.699747
+N02996,2026-05-14,Shift 1,ST-D,M-2,"patah di area tengah, tidak bisa dipakai",C3,Retak / patah,0.699747

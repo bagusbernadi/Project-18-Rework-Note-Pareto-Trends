@@ -1,0 +1,2 @@
+model_benar_baseline_salah,model_salah_baseline_benar,keduanya_benar,keduanya_salah,p_mcnemar_eksak,selisih_accuracy
+0,2,267,0,0.5,-0.007434944238

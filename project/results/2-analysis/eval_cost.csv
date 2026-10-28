@@ -1,0 +1,4 @@
+ukuran,nilai,alasan
+biaya API per 1.000 catatan,tidak diukur,tidak ada API key; Claude API tidak dipanggil
+waktu per 1.000 catatan (API),tidak diukur,tidak ada API key
+token per catatan,tidak diukur,tidak ada API key

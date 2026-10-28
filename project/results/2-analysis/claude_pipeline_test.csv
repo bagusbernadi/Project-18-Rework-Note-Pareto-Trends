@@ -1,0 +1,9 @@
+pemeriksaan,hasil
+prompt memuat 9 kode kategori,lulus
+JSON valid diterima,lulus
+kategori di luar daftar ditolak,lulus
+confidence di luar 0..1 ditolak,lulus
+teks bukan JSON ditolak,lulus
+jawaban tidak valid diulang satu kali lalu diterima,lulus
+dua kali tidak valid menjadi C9 dengan confidence 0,lulus
+token dijumlahkan,lulus

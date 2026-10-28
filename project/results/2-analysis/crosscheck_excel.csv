@@ -1,0 +1,10 @@
+category_code,n_manual_excel,n_manual_sql,n_klasifikasi_excel,n_klasifikasi_sql,rank_manual_excel,rank_manual_sql,rank_klasifikasi_excel,rank_klasifikasi_sql,cocok
+C1,35,35,35,35,3,3,3,3,1
+C2,23,23,23,23,5,5,5,5,1
+C3,12,12,11,11,7,7,7,7,1
+C4,77,77,78,78,1,1,1,1,1
+C5,61,61,62,62,2,2,2,2,1
+C6,19,19,19,19,6,6,6,6,1
+C7,28,28,28,28,4,4,4,4,1
+C8,10,10,9,9,8,8,8,8,1
+C9,4,4,4,4,9,9,9,9,1

@@ -1,0 +1,3 @@
+klasifikator,n,accuracy,acc_ci_low,acc_ci_high,macro_f1,f1_ci_low,f1_ci_high,salah
+pengganti lokal (out-of-fold),269,0.9925650558,0.9733013207,0.9979586965,0.9877009407,0.9561394782,1,2
+baseline kata kunci,269,1,0.9859205458,1,1,0.8888888889,1,0

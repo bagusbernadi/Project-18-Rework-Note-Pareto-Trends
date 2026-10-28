@@ -1,16 +1,18 @@
 """Project 18 (langkah 1 dari 2): catatan rework SIMULASI berisi identitas (nama, produk, lot, serial, stasiun). Seed tetap.
 
 Seluruh catatan karangan, tetapi ditulis seperti catatan operator (singkatan, salah ketik, nama orang). Kategori sebenarnya
-disimpan sebagai kebenaran (truth) untuk menilai klasifikasi. Hasil (data/private/raw/, tidak di-commit):
-notes_raw.csv, truth.csv. Jalankan: python scripts/generate_raw.py && python scripts/anonymize.py   (versi data: v1)
+disimpan sebagai kebenaran (truth) untuk menilai klasifikasi. Hasil (project/data/raw/, tidak di-commit):
+notes_raw.csv, truth.csv. Jalankan dari folder project/: python code/1-data-preparation/python/00_generate_raw.py lalu 01_anonymize.py (versi data: v1).
+Logika, seed, dan nilai identik dengan generator di repo DataCenter/simulasi (sidik jari dicek di 02_verify_fingerprint.py).
 """
+import sys
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parents[1]
-RAW = ROOT / "data" / "private" / "raw"
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+from common import RAW
 SEED = 18260302
 DATA_VERSION = "v1"
 N_NOTES = 3000

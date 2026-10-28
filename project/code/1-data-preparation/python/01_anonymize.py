@@ -1,18 +1,18 @@
 """Project 18 (langkah 2 dari 2): anonymization catatan simulasi -> data/anon/. Seed tetap.
 
 Menghapus/mengganti nama orang, produk, lot, nomor seri, dan nama stasiun. Hasil (data/anon/): rework_note.csv,
-manual_label.csv (golden set 300 catatan), dim_category.csv, redaction_log.csv. Pemetaan stasiun/model ada di data/private/.
+manual_label.csv (golden set 300 catatan), dim_category.csv, redaction_log.csv. Pemetaan stasiun/model ada di project/data/mapping.json (tidak di-commit).
 """
 import json
 import re
+import sys
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parents[1]
-PRIV, ANON = ROOT / "data" / "private", ROOT / "data" / "anon"
-RAW = PRIV / "raw"
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+from common import ANON, MAPPING, RAW
 SEED = 18260999
 GOLDEN_N = 300
 NAMES = ["Budi", "Sari", "Andi", "Rina", "Joko", "Wati", "Dewi", "Eko", "Fitri", "Hendra"]
@@ -57,6 +57,6 @@ note.to_csv(ANON / "rework_note.csv", index=False)
 manual.to_csv(ANON / "manual_label.csv", index=False)
 pd.DataFrame([(k, v) for k, v in CAT_NAME.items()], columns=["category_code", "name"]).to_csv(ANON / "dim_category.csv", index=False)
 pd.DataFrame(list(log.items()), columns=["rule", "n_replaced"]).to_csv(ANON / "redaction_log.csv", index=False)
-(PRIV / "mapping.json").write_text(json.dumps({"station": st_map, "model": md_map}, indent=2, ensure_ascii=False), encoding="utf-8")
+MAPPING.write_text(json.dumps({"station": st_map, "model": md_map}, indent=2, ensure_ascii=False), encoding="utf-8")
 print(f"anon: {len(note)} catatan ({int((~note['is_valid']).sum())} terlalu singkat), golden set {len(manual)}; "
       f"penggantian {log}; cek kebocoran: lolos")

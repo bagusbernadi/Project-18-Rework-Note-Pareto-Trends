@@ -1,0 +1,10 @@
+category_code,support,precision,recall,f1,f1_baseline,recall_baseline,nama
+C1,35,1,1,1,1,1,Kontaminasi / debu
+C2,23,1,1,1,1,1,Goresan
+C3,12,1,0.9166666667,0.9565217391,1,1,Retak / patah
+C4,77,0.9871794872,1,0.9935483871,1,1,Perekat kurang / berlebih
+C5,61,0.9838709677,1,0.9918699187,1,1,Posisi tidak sejajar
+C6,19,1,1,1,1,1,Dimensi di luar toleransi
+C7,28,1,1,1,1,1,Gagal uji fungsi
+C8,10,1,0.9,0.9473684211,1,1,Label / pengemasan
+C9,4,1,1,1,1,1,Lainnya / tidak jelas

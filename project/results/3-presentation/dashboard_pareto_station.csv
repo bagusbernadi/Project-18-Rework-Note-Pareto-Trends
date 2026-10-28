@@ -1,0 +1,55 @@
+station_code,category_code,n,station_total,share,rank_in_station,nama
+ST-A,C4,108,477,0.2264150943,1,Perekat kurang / berlebih
+ST-A,C2,89,477,0.1865828092,2,Goresan
+ST-A,C1,81,477,0.1698113208,3,Kontaminasi / debu
+ST-A,C5,74,477,0.1551362683,4,Posisi tidak sejajar
+ST-A,C6,41,477,0.0859538784,5,Dimensi di luar toleransi
+ST-A,C7,38,477,0.0796645702,6,Gagal uji fungsi
+ST-A,C3,26,477,0.0545073375,7,Retak / patah
+ST-A,C8,16,477,0.0335429769,8,Label / pengemasan
+ST-A,C9,4,477,0.0083857442,9,Lainnya / tidak jelas
+ST-B,C4,118,458,0.2576419214,1,Perekat kurang / berlebih
+ST-B,C5,100,458,0.2183406114,2,Posisi tidak sejajar
+ST-B,C1,72,458,0.1572052402,3,Kontaminasi / debu
+ST-B,C7,49,458,0.1069868996,4,Gagal uji fungsi
+ST-B,C2,34,458,0.0742358079,5,Goresan
+ST-B,C6,34,458,0.0742358079,6,Dimensi di luar toleransi
+ST-B,C3,25,458,0.0545851528,7,Retak / patah
+ST-B,C8,19,458,0.0414847162,8,Label / pengemasan
+ST-B,C9,7,458,0.0152838428,9,Lainnya / tidak jelas
+ST-C,C4,252,492,0.512195122,1,Perekat kurang / berlebih
+ST-C,C5,58,492,0.1178861789,2,Posisi tidak sejajar
+ST-C,C1,56,492,0.1138211382,3,Kontaminasi / debu
+ST-C,C2,36,492,0.0731707317,4,Goresan
+ST-C,C6,31,492,0.0630081301,5,Dimensi di luar toleransi
+ST-C,C7,27,492,0.0548780488,6,Gagal uji fungsi
+ST-C,C8,15,492,0.0304878049,7,Label / pengemasan
+ST-C,C3,11,492,0.0223577236,8,Retak / patah
+ST-C,C9,6,492,0.012195122,9,Lainnya / tidak jelas
+ST-D,C7,100,406,0.2463054187,1,Gagal uji fungsi
+ST-D,C4,87,406,0.2142857143,2,Perekat kurang / berlebih
+ST-D,C5,73,406,0.1798029557,3,Posisi tidak sejajar
+ST-D,C1,49,406,0.1206896552,4,Kontaminasi / debu
+ST-D,C2,33,406,0.0812807882,5,Goresan
+ST-D,C6,31,406,0.0763546798,6,Dimensi di luar toleransi
+ST-D,C3,17,406,0.0418719212,7,Retak / patah
+ST-D,C8,12,406,0.0295566502,8,Label / pengemasan
+ST-D,C9,4,406,0.0098522167,9,Lainnya / tidak jelas
+ST-E,C5,198,441,0.4489795918,1,Posisi tidak sejajar
+ST-E,C4,70,441,0.1587301587,2,Perekat kurang / berlebih
+ST-E,C1,62,441,0.1405895692,3,Kontaminasi / debu
+ST-E,C2,33,441,0.074829932,4,Goresan
+ST-E,C6,27,441,0.0612244898,5,Dimensi di luar toleransi
+ST-E,C7,19,441,0.0430839002,6,Gagal uji fungsi
+ST-E,C3,16,441,0.0362811791,7,Retak / patah
+ST-E,C8,13,441,0.029478458,8,Label / pengemasan
+ST-E,C9,3,441,0.0068027211,9,Lainnya / tidak jelas
+ST-F,C4,110,450,0.2444444444,1,Perekat kurang / berlebih
+ST-F,C5,91,450,0.2022222222,2,Posisi tidak sejajar
+ST-F,C1,84,450,0.1866666667,3,Kontaminasi / debu
+ST-F,C7,45,450,0.1,4,Gagal uji fungsi
+ST-F,C2,40,450,0.0888888889,5,Goresan
+ST-F,C6,29,450,0.0644444444,6,Dimensi di luar toleransi
+ST-F,C3,27,450,0.06,7,Retak / patah
+ST-F,C8,18,450,0.04,8,Label / pengemasan
+ST-F,C9,6,450,0.0133333333,9,Lainnya / tidak jelas
