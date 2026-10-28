@@ -223,7 +223,7 @@ main>nav .links a:hover,main>nav .links a:focus-visible{background:var(--soft);c
 <tr><td>300 tulisan yang dilabeli pemilik sendiri</td><td>Label manual (golden set) untuk evaluasi</td></tr>
 <tr><td>Rekap keluhan terbanyak per bulan</td><td>Pareto dan tren kategori defect per stasiun</td></tr>
 </table></div>
-<p>Project ini membangun <b>pipeline klasifikasi teks dan dashboard tren defect</b>: catatan dibersihkan, dikelompokkan oleh LLM ke kategori yang disepakati, diuji ketepatannya terhadap label manual, lalu disimpan di database dan ditampilkan sebagai Pareto dan tren. Datanya adalah catatan kerja yang sudah dianonimkan: nama orang, nama produk, dan nama stasiun dihapus atau diganti istilah umum. Kata bergaris bawah putus-putus kuning bisa diklik untuk melihat artinya.</p>
+<p>Project ini membangun <b>pipeline klasifikasi teks dan dashboard tren defect</b>: catatan dibersihkan, dikelompokkan oleh LLM ke kategori yang disepakati, diuji ketepatannya terhadap label manual, lalu disimpan di database dan ditampilkan sebagai Pareto dan tren. Datanya adalah catatan simulasi yang sudah dianonimkan: nama orang, nama produk, dan nama stasiun dihapus atau diganti istilah umum. Kata bergaris bawah putus-putus kuning bisa diklik untuk melihat artinya.</p>
 <div class="layout">
 <h3>Gambaran alur catatan rework</h3>
 <p class="lead">Proses ini bisa dibayangkan sebagai tiga jalur. Dua jalur pertama sudah berjalan. Jalur ketiga adalah yang dibangun di project ini.</p>
@@ -360,7 +360,7 @@ main>nav .links a:hover,main>nav .links a:focus-visible{background:var(--soft);c
 
 <h2 id="s4">4. Dataset<small>Catatan rework dan defect dari pekerjaan nyata yang sudah dianonimkan</small></h2>
 <div class="two"><div class="card">
-<p><b>Kenapa data kerja yang dianonimkan?</b> Cara operator menulis (singkatan, salah ketik, campuran bahasa) sulit ditiru dengan teks buatan, dan justru itu yang menguji LLM. Sebelum dipakai, catatan dianonimkan: nama orang dihapus, nama produk dan stasiun diganti istilah umum atau kode, nomor lot dan serial dihapus, dan kode operator dibuat dengan pseudonymization. Hanya teks yang sudah dianonimkan yang dikirim ke API.</p>
+<p><b>Kenapa simulasi yang dianonimkan?</b> Project ini tidak memakai data perusahaan. Generator menulis catatan karangan seperti catatan operator (singkatan, salah ketik, campuran bahasa) lengkap dengan nama orang, produk, lot, serial, dan nama stasiun, lalu catatan dianonimkan: nama orang dihapus, nama produk dan stasiun diganti kode, serta nomor lot dan serial dihapus. Hanya teks yang sudah dianonimkan yang dikirim ke API. Kategori sebenarnya ditanam oleh generator, sehingga akurasi mencerminkan metode pada data karangan, bukan catatan pabrik.</p>
 <p><b>Ukuran:</b> sekitar 6 bulan catatan dari 6 stasiun (ST-A sampai ST-F). Perkiraan ±3.000 catatan, dan ±300 di antaranya diberi label manual sebagai golden set. Jumlah pastinya diketahui setelah data dikumpulkan dan dianonimkan.</p>
 </div>
 <div class="callout g"><h4>Hipotesis yang akan diuji (belum terbukti)</h4>
@@ -506,7 +506,7 @@ main>nav .links a:hover,main>nav .links a:focus-visible{background:var(--soft);c
 <p>Rancangan memecahnya menjadi 14 pertanyaan (9 Utama, 4 Pendukung, 1 Tambahan) dalam tema kategori, tren, ketepatan, biaya dan dampak, serta validitas. Daftar lengkap ada di bagian 2 halaman rancangan.</p></div>
 
 <h2 id="rp2">2. Data<small>Sumber, ukuran, dan perlakuan awal</small></h2>
-<div class="card"><ul class="tight"><li>Catatan rework dan defect dari pekerjaan nyata yang dianonimkan. Hanya teks yang sudah dianonimkan yang dikirim ke API. Data asli tidak masuk repositori.</li><li>Ukuran (perkiraan): ±3.000 catatan, 6 stasiun (ST-A sampai ST-F), ±6 bulan; golden set ±300 catatan berlabel manual.</li><li>Rencana tabel: <code>rework_note</code>, <code>llm_label</code>, <code>manual_label</code>, <code>dim_category</code>.</li></ul></div>
+<div class="card"><ul class="tight"><li>Catatan rework dan defect simulasi (100% karangan) yang dianonimkan: <code>scripts/generate_raw.py</code> membuat catatan, <code>scripts/anonymize.py</code> menghapus atau mengganti identitasnya. Hanya teks yang sudah dianonimkan yang dikirim ke API. Data sebelum anonymization tidak masuk repositori.</li><li>Ukuran (perkiraan): ±3.000 catatan, 6 stasiun (ST-A sampai ST-F), ±6 bulan; golden set ±300 catatan berlabel manual.</li><li>Rencana tabel: <code>rework_note</code>, <code>llm_label</code>, <code>manual_label</code>, <code>dim_category</code>.</li></ul></div>
 
 <h2 id="rp3">3. Analysis<small>Hasil perhitungan dari data</small></h2>
 <div class="card"><p>Belum dikerjakan. Rencana langkah (12 langkah, tahap A sampai D) ada di bagian 6 halaman rancangan: taksonomi 9 kategori, klasifikasi Claude API dengan output JSON, baseline kata kunci, evaluasi (accuracy, macro F1, confusion matrix), lalu Pareto dan tren.</p>
