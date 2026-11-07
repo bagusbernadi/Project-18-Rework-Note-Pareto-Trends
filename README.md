@@ -2,6 +2,8 @@
 
 # Project 18: Rework Note Analysis with LLM: Defect Pareto & Trends
 
+**Halaman web:** https://bagusbernadi.github.io/Project-18-Rework-Note-Pareto-Trends/
+
 **Status: Selesai di branch `project-18-build` (belum di-merge ke `main`).** Halaman rancangan dan laporan: [`design-and-report/index.html`](design-and-report/index.html) (tab Design Project dan Report Project).
 
 **Tujuan:** mengelompokkan catatan rework operator ke kategori penyebab, membuat Pareto dan tren per stasiun dan bulan, serta menilai seberapa bisa dipercaya klasifikasi otomatisnya.
